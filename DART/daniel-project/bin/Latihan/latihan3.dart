@@ -1,6 +1,5 @@
 import 'dart:io';
-
-void main (List<String> args){
+void main (){
   stdout.write("Masukan Panjang:");
   int Panjang = int.parse(stdin.readLineSync()!);
   print(Panjang);
